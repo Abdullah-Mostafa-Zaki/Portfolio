@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Abdullah Mostafa Zaki | Data Engineer | Skilled in Python, SQL, ETL, Power BI, and building scalable data systems.">
+<title>Abdullah Mostafa Zaki | Data Engineer</title>
+<style>
+    :root {
+        --bg: #fff;
+        --primary: #1a1a1a;
+        --secondary: #555;
+        --accent: #0056b3;
+        --accent-hover: #004494;
+        --border: #e0e0e0;
+        --spacing: 80px;
+        --container: 900px;
+        --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; margin:0; padding:0;}
+    html { scroll-behavior: smooth;}
+    body { font-family: var(--font); background: var(--bg); color: var(--primary); line-height: 1.6; -webkit-font-smoothing: antialiased;}
+    h1,h2,h3 { line-height:1.2; font-weight:700; }
+    h1 { font-size:3rem; margin-bottom:.5rem;}
+    h2 { font-size:1.75rem; margin-bottom:2rem;}
+    h3 { font-size:1.25rem; margin-bottom:.5rem;}
+    p { color: var(--secondary); margin-bottom:1.5rem; font-size:1.125rem;}
+    a { text-decoration:none; color:inherit;}
+    .container { max-width: var(--container); margin:0 auto; padding:0 20px;}
+    section { padding: var(--spacing) 0; opacity:0; transform: translateY(20px); transition: all .7s ease;}
+    section.visible { opacity:1; transform: translateY(0);}
+    .btn { display:inline-block; padding:12px 24px; border-radius:4px; font-weight:600; font-size:1rem; cursor:pointer; border:2px solid transparent; text-align:center;}
+    .btn-primary { background:var(--accent); color:#fff;}
+    .btn-primary:hover { background: var(--accent-hover);}
+    .btn-outline { border:2px solid var(--accent); background:transparent; color:var(--accent);}
+    .btn-outline:hover { background:var(--accent); color:#fff;}
+    .hero { max-width:700px; padding:120px 0 80px;}
+    .hero-subtitle { font-size:1.25rem; color:var(--accent); font-weight:600; margin-bottom:1rem; display:block;}
+    .hero-badges { display:flex; flex-wrap:wrap; gap:12px; margin-bottom:1.5rem;}
+    .badge { background:#f3f4f6; padding:4px 10px; border-radius:4px; font-weight:500;}
+    .skills { display:flex; flex-wrap:wrap; gap:10px; margin-top:15px;}
+    .skill { background:#f3f4f6; padding:6px 12px; border-radius:20px; font-weight:500; font-size:.9rem;}
+    .projects-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:30px;}
+    .project-card { border:1px solid var(--border); padding:25px; border-radius:6px; display:flex; flex-direction:column; justify-content:space-between; transition:.3s ease;}
+    .project-card:hover { transform: translateY(-5px); box-shadow:0 8px 20px rgba(0,0,0,.08);}
+    .tech-stack { font-family: monospace; color:var(--accent); font-weight:600; font-size:.875rem; margin-top:10px;}
+    .about-content { max-width:700px;}
+    .contact-links { list-style:none; display:flex; flex-direction:column; gap:15px;}
+    .contact-links li a { font-size:1.25rem; border-bottom:1px solid var(--border); padding-bottom:4px; transition:.2s;}
+    .contact-links li a:hover { color:var(--accent); border-color:var(--accent);}
+    footer { padding:40px 0; border-top:1px solid var(--border); color:var(--secondary); font-size:.9rem; text-align:center;}
+    @media(max-width:768px){ h1{font-size:2.25rem;} .hero{padding-top:80px;} .btn{width:100%; margin:10px 0 0 0;} .hero-badges{flex-direction:column; gap:8px;}}
+</style>
+</head>
+<body>
+
+<section id="hero" class="visible">
+    <div class="container hero">
+        <h1>Abdullah Mostafa Zaki</h1>
+        <span class="hero-subtitle">Data Engineer</span>
+        <div class="hero-badges">
+            <span class="badge">Ex Atos Intern</span>
+            <span class="badge">Computer Engineering Student</span>
+            <span class="badge">12x National Taekwondo Champion</span>
+        </div>
+        <p>I build reliable data pipelines using Python, SQL, and cloud tools to turn raw data into actionable insights at scale.</p>
+        <div>
+            <a href="#projects" class="btn btn-primary">View Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+        <div class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">SQL</span>
+            <span class="skill">ETL</span>
+            <span class="skill">Power BI</span>
+            <span class="skill">PostgreSQL</span>
+            <span class="skill">Data Pipelines</span>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="container">
+        <header class="section-header"><h2>Data Engineering Projects</h2></header>
+        <div class="projects-grid">
+            
+            <!-- Project 1 -->
+            <article class="project-card">
+                <h3>Automated ETL Pipeline</h3>
+                <p>Built a Python ETL pipeline for UEFA datasets and client-style data to:</p>
+                <ul>
+                    <li>Clean, transform, and normalize data using <strong>pandas</strong> and <strong>SQL</strong></li>
+                    <li>Log every change to ensure <strong>data traceability</strong></li>
+                    <li>Increase workflow efficiency, reducing manual tasks by 40%</li>
+                </ul>
+                <div class="tech-stack">Python · SQL · PostgreSQL · Pandas · ETL</div>
+                <a href="https://github.com/Abdullah-Mostafa-Zaki" target="_blank" class="btn btn-outline">View Code</a>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+                <h3>Power BI Dashboards for Telecom & E-commerce</h3>
+                <p>Created interactive dashboards to:</p>
+                <ul>
+                    <li>Analyze cleaned datasets and identify trends using <strong>Power BI</strong></li>
+                    <li>Provide actionable insights for business decisions</li>
+                    <li>Visualize KPIs, anomalies, and metrics for stakeholder reporting</li>
+                </ul>
+                <div class="tech-stack">Power BI · SQL · Python · Data Visualization</div>
+                <a href="https://github.com/Abdullah-Mostafa-Zaki" target="_blank" class="btn btn-outline">View Code</a>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+                <h3>End-to-End Data Engineering: OList E-commerce</h3>
+                <p>Applied full data engineering workflow to the OList dataset:</p>
+                <ul>
+                    <li>Designed and implemented a <strong>SQL database schema</strong> optimized for analytics</li>
+                    <li>Built an automated ETL pipeline with <strong>SCD handling</strong>, <strong>soft deletes</strong>, and <strong>API extraction</strong></li>
+                    <li>Created multiple dashboards in Power BI to present actionable business insights</li>
+                </ul>
+                <div class="tech-stack">SQL · Python · ETL · Power BI · APIs</div>
+                <a href="https://github.com/Abdullah-Mostafa-Zaki" target="_blank" class="btn btn-outline">View Code</a>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="about">
+    <div class="container">
+        <header class="section-header"><h2>About Me</h2></header>
+        <div class="about-content">
+            <p>I am a Computer Engineering student passionate about building reliable data systems, turning raw data into actionable value.</p>
+            <p>During my <strong>Data Engineering Internship at Atos</strong>, I gained hands-on experience designing schemas, optimizing SQL queries, and building ETL pipelines. I apply the same discipline as in my athletic career as a <strong>12x National Taekwondo Champion</strong>—focusing on consistency, technique, and continuous improvement.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <header class="section-header"><h2>Get in Touch</h2></header>
+        <ul class="contact-links">
+            <li><a href="mailto:abdullah.mostafa.zaki@gmail.com">abdullah.mostafa.zaki@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/abdullah-mostafa-zaki-254a3a1ab/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/Abdullah-Mostafa-Zaki" target="_blank">GitHub</a></li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <div class="container">&copy; 2025 Abdullah Mostafa Zaki. All rights reserved.</div>
+</footer>
+
+<script>
+    // Simple scroll animation
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if(entry.isIntersecting){
+                entry.target.classList.add('visible');
+            }
+        });
+    }, {threshold:0.1});
+    sections.forEach(section => observer.observe(section));
+</script>
+
+</body>
+</html>
